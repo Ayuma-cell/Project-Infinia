@@ -1,0 +1,187 @@
+{
+  "type": "origins:multiple",
+  "resource": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 100,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 17,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "*:*_resource",
+        "comparison": ">",
+        "compare_to": 0
+      }
+    },
+    "start_value": 0,
+    "max_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:glow_squid_ink ~ ~ ~ 0.1 500 0.1 0 500000 force"
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:block.beacon.deactivate",
+          "volume": 2
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute in the_aether:the_aether run tp @s ~ ~ ~"
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_cooldown"
+        },
+        {
+          "type": "origins:add_velocity",
+          "y": 5,
+          "space": "local"
+        },
+        {
+          "type" : "origins:execute_command",
+          "command": "particle minecraft:glow_squid_ink ~ ~ ~ 0.1 2 0.1 0 250 force"
+        }
+      ]
+    }
+  },
+  "cooldown": {
+    "type": "origins:cooldown",
+    "cooldown": 36000,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+      "bar_index": 12
+    }
+  },
+  "recall": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "key.origins.quaternary_active",
+      "continuous": false
+    },
+    "retain_state": false,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:moving",
+          "inverted": true
+        },
+        {
+          "type": "origins:resource",
+          "resource": "*:*_resource",
+          "comparison": ">=",
+          "compare_to": 100,
+          "inverted": true
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "the_aether:the_aether",
+          "inverted": true
+        },
+        {
+          "type": "origins:resource",
+          "resource": "*:*_coolodown",
+          "comparison": "<=",
+          "compare_to": 0
+        }
+      ]
+    }
+  },
+  "modify": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:power_active",
+        "power": "*:*_recall"
+      },
+      "if_action": {
+        "type": "origins:change_resource",
+        "resource": "*:*_resource",
+        "change": 1
+      },
+      "else_action": {
+        "type": "origins:change_resource",
+        "resource": "*:*_resource",
+        "change": -3
+      }
+    }
+  },
+  "channeling": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:if_else_list",
+      "actions": [
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_resource",
+            "comparison": ">",
+            "compare_to": 75
+          },
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:execute_command",
+                "command": "particle minecraft:glow_squid_ink ~ ~ ~ 0.1 3 0.1 0 3 force"
+              }
+            ]
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_resource",
+            "comparison": ">",
+            "compare_to": 50
+          },
+          "action": {
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:execute_command",
+                "command": "particle minecraft:glow_squid_ink ~ ~ ~ 0.1 2 0.1 0 2 force"
+              }
+            ]
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_resource",
+            "comparison": "==",
+            "compare_to": 50
+          },
+          "action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:block.beacon.activate",
+            "volume": 2
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_resource",
+            "comparison": ">",
+            "compare_to": 25
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "particle minecraft:glow_squid_ink ~ ~ ~ 0.1 1 0.1 0 1 force"
+          }
+        }
+      ]
+    }
+  },
+  "name": "Celestial Recall",
+  "description": "As an inhabitant of the heaven you're free to recall to it whenever you like! You need to stay still until the star bar is fully charged. This ability does not work if you're already in the aether and has a cooldown of 30 minutes."
+}

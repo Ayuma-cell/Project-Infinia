@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "celestials:seraph/uplift",
+    "celestials:seraph/judgement",
+    "celestials:seraph/godsembrace",
+    "celestials:seraph/angelsheart"
+  ],
+  "icon": "minecraft:player_head",
+  "unchoosable": true,
+  "order": 1,
+  "impact": 3,
+  "name": "Seraph",
+  "description": "You're the leader of all celestials. Act wise and lead your faction to victory!"
+}

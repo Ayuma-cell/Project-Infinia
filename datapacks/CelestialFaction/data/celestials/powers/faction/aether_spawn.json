@@ -1,0 +1,8 @@
+{
+  "type": "origins:modify_player_spawn",
+  "dimension": "the_aether:the_aether",
+  "biome": "the_aether:the_aether_highlands",
+  "spawn_strategy": "center",
+  "name": "Native Aetherian",
+  "description": "Your natural spawn will be in the aether!"
+}

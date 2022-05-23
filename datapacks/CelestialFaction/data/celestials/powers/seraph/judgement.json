@@ -1,0 +1,20 @@
+{
+  "type": "origins:fire_projectile",
+  "cooldown": 150,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 2
+  },
+  "entity_type": "minecraft:arrow",
+  "speed": 5,
+  "count": 6,
+  "divergence": 10,
+  "interval": 1,
+  "tag": "{Potion: 'minecraft:strong_harming', pickup: 0b}",
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "name": "Judgement",
+  "description": "You shoot salves of up to 6 arrows in the direction you look!"
+}

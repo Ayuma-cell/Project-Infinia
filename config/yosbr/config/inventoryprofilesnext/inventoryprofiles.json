@@ -1,0 +1,15 @@
+{
+    "ModSettings": {
+        "enable_profiles": false,
+        "enable_analytics": true,
+        "for_modpack_devs": true,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": false,
+        "show_continuous_crafting_checkbox": false
+    },
+    "AutoRefillSettings": {
+        "allow_break_for_non_enchanted": true
+    }
+}

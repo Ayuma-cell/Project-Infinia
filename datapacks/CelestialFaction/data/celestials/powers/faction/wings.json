@@ -1,0 +1,6 @@
+{
+  "type": "origins:elytra_flight",
+  "name": "Wings",
+  "description": "As an celestial you've grown a need for wings.",
+  "render_elytra": true
+}

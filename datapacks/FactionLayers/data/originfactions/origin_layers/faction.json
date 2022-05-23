@@ -1,0 +1,11 @@
+{
+  "order": 0,
+  "replace": false,
+  "origins": [
+
+  ],
+  "name": "Faction",
+  "missing_name": "No faction found",
+  "missing_description": "It seems you have no faction yet. Please contact an admin about this issue!",
+  "allow_random": true
+}

@@ -1,0 +1,44 @@
+{
+  "type": "origins:multiple",
+  "onhit": {
+    "type": "origins:action_on_hit",
+    "cooldown": 350,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:grant_power",
+            "power": "celestials:seraph/lightningtenacity",
+            "source": "*:*"
+          },
+          {
+            "type": "origins:delay",
+            "ticks": 2,
+            "action": {
+              "type": "origins:execute_command",
+              "command": "summon minecraft:lightning_bolt ~ ~ ~ {Damage: 0}"
+            }
+          },
+          {
+            "type": "origins:delay",
+            "ticks": 20,
+            "action": {
+              "type": "origins:revoke_power",
+              "power": "celestials:seraph/lightningtenacity",
+              "source": "*:*"
+            }
+          }
+        ]
+      }
+    },
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/resource_bar.png",
+      "bar_index": 2
+    }
+  },
+  "name": "God's Embrace",
+  "description": "Your attacks periodically summon a lightning bolt down to whom you've struck!"
+}

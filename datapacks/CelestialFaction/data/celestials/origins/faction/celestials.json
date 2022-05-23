@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"celestials:faction/aether_spawn",
+		"celestials:faction/wings",
+		"celestials:faction/wingexhaustion",
+		"celestials:faction/weakpoint",
+		"celestials:faction/celestial_recall",
+		"celestials:faction/celestial_team"
+	],
+	"icon": "minecraft:nether_star",
+	"order": 10,
+	"impact": 1,
+	"name": "Celestials",
+	"description": "You've been made for eternity. You often see yourself observing the creatures below, chuckling about how tiny they look. Whether it's to protect or to destroy you shall find your fate and hold on to it forever!"
+}

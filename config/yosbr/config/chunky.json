@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "language": "en",
+  "continueOnRestart": false,
+  "tasks": {
+    "minecraft:overworld": {
+      "cancelled": true,
+      "radius": 5000.0,
+      "centerX": 0.0,
+      "centerZ": 0.0,
+      "iterator": "concentric",
+      "shape": "circle",
+      "count": 393079,
+      "time": 4648340
+    },
+    "the_aether:the_aether": {
+      "cancelled": true,
+      "radius": 500000.0,
+      "centerX": 0.0,
+      "centerZ": 0.0,
+      "iterator": "concentric",
+      "shape": "circle",
+      "count": 27,
+      "time": 80086
+    },
+    "minecraft:the_nether": {
+      "cancelled": true,
+      "radius": 500000.0,
+      "centerX": 0.0,
+      "centerZ": 0.0,
+      "iterator": "concentric",
+      "shape": "circle",
+      "count": 206,
+      "time": 88586
+    },
+    "minecraft:the_end": {
+      "cancelled": true,
+      "radius": 500000.0,
+      "centerX": 0.0,
+      "centerZ": 0.0,
+      "iterator": "concentric",
+      "shape": "circle",
+      "count": 7040,
+      "time": 96394
+    }
+  }
+}

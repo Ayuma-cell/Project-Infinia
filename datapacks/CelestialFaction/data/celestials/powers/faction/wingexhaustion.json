@@ -1,0 +1,12 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 1
+  },
+  "condition": {
+    "type": "origins:fall_flying"
+  },
+  "name": "Exhausting Wings",
+  "description": "Using your wings requires a lot of energy. You exhaust double as fast while flying."
+}

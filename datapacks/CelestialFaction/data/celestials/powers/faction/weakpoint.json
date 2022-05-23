@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 0.75
+  },
+  "name": "Wings Weakpoint",
+  "description": "Your wings act as a weak point to enemies. You'll receive 75% more damage from enemies!"
+}

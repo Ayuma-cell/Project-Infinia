@@ -1,0 +1,118 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enable entities light source.
+	entities = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+				player = true
+				creeper = true
+				witch = true
+				skeleton = true
+				bat = true
+				zombie = true
+				glow_squid = true
+				item = true
+				sheep = true
+				zombie_villager = true
+				spider = true
+				item_frame = true
+				chest_minecart = true
+				wolf = true
+				cow = true
+				squid = true
+				chicken = true
+				pig = true
+				vindicator = true
+				salmon = true
+				drowned = true
+				enderman = true
+				cod = true
+				villager = true
+				slime = true
+				tnt_minecart = true
+				armor_stand = true
+				fox = true
+				rabbit = true
+				iron_golem = true
+				cat = true
+				arrow = true
+				bee = true
+				experience_orb = true
+				donkey = true
+				lightning_bolt = true
+				horse = true
+				spectral_arrow = true
+				guardian = true
+				area_effect_cloud = true
+				hopper_minecart = true
+				axolotl = true
+				dolphin = true
+				egg = true
+				zombified_piglin = true
+				turtle = true
+				skeleton_horse = true
+				parrot = true
+
+			[light_sources.settings.entities.graveyard]
+				ghoul = true
+				revenant = true
+				skeleton_creeper = true
+				acolyte = true
+				nightmare = true
+
+			[light_sources.settings.entities.betteranimalsplus]
+				songbird = true
+				turkey = true
+				pheasant = true
+				goose = true
+				blackbear = true
+				deer = true
+				lammergeier = true
+				brownbear = true
+				badger = true
+				squirrel = true
+				feralwolf = true
+				boar = true
+				horseshoecrab = true
+				eel_freshwater = true
+				lamprey = true
+				butterfly = true
+				crab = true
+				jellyfish = true
+				nautilus = true
+				octopus = true
+				badgerdirt = true
+				coyote = true
+				dragonfly = true
+				whale = true
+				shark = true
+				eel_saltwater = true
+				bobbit_worm = true
+				piranha = true
+
+			[light_sources.settings.entities.the_aether]
+				aerwhale = true
+				aechor_plant = true
+				aerbunny = true
+				moa = true
+
+			[light_sources.settings.entities.illagerexp]
+				sorcerer = true
+

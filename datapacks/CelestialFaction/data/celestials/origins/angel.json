@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "celestials:angel/uplift"
+  ],
+  "icon": "minecraft:player_head",
+  "unchooseable": false,
+  "order": 1,
+  "impact": 0,
+  "name": "Regular Celestial",
+  "description": "A regular angel with no special benefits or drawbacks. All doors are open to you. Get out there and forge your path!"
+}

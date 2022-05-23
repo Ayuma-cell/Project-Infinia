@@ -1,0 +1,18 @@
+{
+  "order": 1,
+  "replace": false,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "celestials:faction/celestials",
+        "layer": "originfactions:faction"
+      },
+      "origins": [
+        "celestials:seraph",
+        "celestials:angel"
+      ]
+    }
+  ],
+  "loading_priority": 5
+}
