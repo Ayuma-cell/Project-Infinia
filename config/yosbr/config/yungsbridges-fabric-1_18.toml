@@ -1,6 +1,6 @@
 blacklistedBiomes = "[]"
 
 [spawnRates]
-smallBridges = 2
-mediumBridges = 2
-largeBridges = 2
+smallBridges = 1
+mediumBridges = 1
+largeBridges = 1

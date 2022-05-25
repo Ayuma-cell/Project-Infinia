@@ -9,7 +9,7 @@ debugEntityVariantIds:false
 updateNotification:true
 minimap:true
 caveMaps:2
-caveZoom:2
+caveZoom:3
 showWaypoints:true
 showIngameWaypoints:true
 displayRedstone:true
@@ -17,7 +17,7 @@ deathpoints:true
 oldDeathpoints:false
 distance:1
 showCoords:true
-lockNorth:false
+lockNorth:true
 zoom:0
 minimapSize:0
 chunkGrid:8
@@ -33,7 +33,7 @@ blockColours:0
 lighting:true
 dotsStyle:0
 dotNameScale:1.0
-compassOverWaypoints:false
+compassOverEverything:true
 showBiome:true
 showFlowers:true
 keepWaypointNames:true

@@ -128,7 +128,7 @@
 	"appearance": {
 		"recipeScreenType": "ORIGINAL",
 		// Declares the appearance of REI windows.
-		"theme": "LIGHT",
+		"theme": "DARK",
 		"layout": {
 			// Declares the position of the search field.
 			"searchFieldLocation": "CENTER",
@@ -156,7 +156,7 @@
 		// Declares whether mob effects should be on the left side instead of the right side.
 		"leftSideMobEffects": true,
 		// Declares whether subsets is enabled.
-		"isSubsetsEnabled": false,
+		"isSubsetsEnabled": true,
 		"allowInventoryHighlighting": true,
 		"itemCheatingMode": "REI_LIKE"
 	}

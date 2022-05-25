@@ -4,115 +4,125 @@ mode = "fancy"
 
 # Light sources settings.
 [light_sources]
-	# Enable entities light source.
-	entities = true
-	# Enable block entities light source.
-	block_entities = true
 	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
 	water_sensitive_check = true
-	# Creeper lighting mode. May be off, simple or fancy.
-	creeper = "simple"
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
 	# TNT lighting mode. May be off, simple or fancy.
 	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
 
 	[light_sources.settings]
 
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
-				glow_item_frame = false
-				player = true
-				creeper = true
-				witch = true
+				bee = true
+				axolotl = true
+				egg = true
+				arrow = true
+				cow = true
+				pig = true
 				skeleton = true
 				bat = true
-				zombie = true
-				glow_squid = true
-				item = true
-				sheep = true
-				zombie_villager = true
-				spider = true
-				item_frame = true
-				chest_minecart = true
-				wolf = true
-				cow = true
-				squid = true
-				chicken = true
-				pig = true
-				vindicator = true
-				salmon = true
-				drowned = true
-				enderman = true
-				cod = true
-				villager = true
-				slime = true
-				tnt_minecart = true
-				armor_stand = true
-				fox = true
 				rabbit = true
-				iron_golem = true
-				cat = true
-				arrow = true
-				bee = true
+				firework_rocket = true
+				armor_stand = true
+				drowned = true
 				experience_orb = true
-				donkey = true
-				lightning_bolt = true
+				dolphin = true
+				item = true
+				turtle = true
+				salmon = true
+				goat = true
+				item_frame = true
+				vindicator = true
 				horse = true
 				spectral_arrow = true
-				guardian = true
-				area_effect_cloud = true
-				hopper_minecart = true
-				axolotl = true
-				dolphin = true
-				egg = true
-				zombified_piglin = true
-				turtle = true
-				skeleton_horse = true
+				glow_squid = true
+				glow_item_frame = false
+				squid = true
 				parrot = true
-
-			[light_sources.settings.entities.graveyard]
-				ghoul = true
-				revenant = true
-				skeleton_creeper = true
-				acolyte = true
-				nightmare = true
-
-			[light_sources.settings.entities.betteranimalsplus]
-				songbird = true
-				turkey = true
-				pheasant = true
-				goose = true
-				blackbear = true
-				deer = true
-				lammergeier = true
-				brownbear = true
-				badger = true
-				squirrel = true
-				feralwolf = true
-				boar = true
-				horseshoecrab = true
-				eel_freshwater = true
-				lamprey = true
-				butterfly = true
-				crab = true
-				jellyfish = true
-				nautilus = true
-				octopus = true
-				badgerdirt = true
-				coyote = true
-				dragonfly = true
-				whale = true
-				shark = true
-				eel_saltwater = true
-				bobbit_worm = true
-				piranha = true
-
-			[light_sources.settings.entities.the_aether]
-				aerwhale = true
-				aechor_plant = true
-				aerbunny = true
-				moa = true
+				creeper = true
+				lightning_bolt = true
+				enderman = true
+				chicken = true
+				donkey = true
+				chest_minecart = true
+				fox = true
+				slime = true
+				pillager = true
+				iron_golem = true
+				area_effect_cloud = true
+				zombified_piglin = true
+				cat = true
+				zombie = true
+				guardian = true
+				sheep = true
+				player = true
+				wolf = true
+				villager = true
+				skeleton_horse = true
+				zombie_villager = true
+				tnt_minecart = true
+				hopper_minecart = true
+				cave_spider = true
+				witch = true
+				cod = true
+				spider = true
 
 			[light_sources.settings.entities.illagerexp]
 				sorcerer = true
+				provoker = true
+				basher = true
+				inquisitor = true
+				marauder = true
+
+			[light_sources.settings.entities.graveyard]
+				acolyte = true
+				revenant = true
+				skeleton_creeper = true
+				ghoul = true
+				nightmare = true
+
+			[light_sources.settings.entities.betteranimalsplus]
+				deer = true
+				feralwolf = true
+				reindeer = true
+				jellyfish = true
+				octopus = true
+				goose = true
+				songbird = true
+				badgerdirt = true
+				eel_freshwater = true
+				boar = true
+				dragonfly = true
+				whale = true
+				lamprey = true
+				butterfly = true
+				pheasant = true
+				blackbear = true
+				shark = true
+				piranha = true
+				bobbit_worm = true
+				nautilus = true
+				badger = true
+				eel_saltwater = true
+				squirrel = true
+				brownbear = true
+				horseshoecrab = true
+				turkey = true
+				coyote = true
+				lammergeier = true
+				crab = true
+
+			[light_sources.settings.entities.the_aether]
+				aerbunny = true
+				aerwhale = true
+				aechor_plant = true
+				blue_swet = true
+				moa = true
 

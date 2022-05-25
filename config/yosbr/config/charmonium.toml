@@ -39,7 +39,7 @@
 	#If true, plays ambient sounds in the End biomes.
 	"The End ambience" = true
 	#Dimensions in which biome ambience will be played.
-	"Valid dimensions" = ["minecraft:overworld", "minecraft:the_end"]
+	"Valid dimensions" = ["minecraft:overworld", "minecraft:the_end", "the_aether:the_aether"]
 
 [SituationalAmbience]
 	#Affects the volume of all situational ambient sounds. 1.0 is full volume.

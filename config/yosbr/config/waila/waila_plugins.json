@@ -30,6 +30,6 @@
     "note_block.type": true,
     "note_block.note": "SHARP",
     "note_block.int_value": false,
-    "pet.hide_unknown_owner": false
+    "pet.hide_unknown_owner": true
   }
 }

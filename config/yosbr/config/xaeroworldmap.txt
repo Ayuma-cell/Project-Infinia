@@ -16,7 +16,7 @@ biomeColorsVanillaMode:false
 waypoints:true
 renderArrow:true
 displayZoom:true
-worldmapWaypointsScale:1.0
+worldmapWaypointsScale:0.5
 openMapAnimation:true
 reloadVersion:0
 reloadEverything:false
@@ -29,4 +29,5 @@ adjustHeightForCarpetLikeBlocks:true
 onlyCurrentMapWaypoints:false
 minZoomForLocalWaypoints:0.0
 arrowColour:-2
+minimapRadar:true
 globalVersion:1

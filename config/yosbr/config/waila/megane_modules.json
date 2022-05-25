@@ -3,6 +3,9 @@
     "megane-fabric-transfer": {
       "lol.bai.megane.module.fabrictransfer.MeganeFabricTransfer": true
     },
+    "megane-lib-block-attributes": {
+      "lol.bai.megane.module.lba.MeganeLibBlockAttributes": true
+    },
     "megane-vanilla": {
       "lol.bai.megane.module.vanilla.MeganeVanilla": true
     }

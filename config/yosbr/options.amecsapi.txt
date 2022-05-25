@@ -32,12 +32,9 @@ key_modifiers_key.hotbar.6:0,0,0
 key_modifiers_key.hotbar.7:0,0,0
 key_modifiers_key.hotbar.8:0,0,0
 key_modifiers_key.hotbar.9:0,0,0
-key_modifiers_key.ninjaphenix_container_lib.config:0,0,1
 key_modifiers_key.dynamicfps.toggle_forced:0,0,0
 key_modifiers_key.dynamicfps.toggle_disabled:0,0,0
-key_modifiers_key.origins.primary_active:0,0,0
-key_modifiers_key.origins.secondary_active:0,0,0
-key_modifiers_key.origins.view_origin:0,0,0
+key_modifiers_key.ninjaphenix_container_lib.config:0,0,0
 key_modifiers_key.amecs.toggle_auto_jump:0,0,0
 key_modifiers_key.amecs.toggle_cape:0,0,0
 key_modifiers_key.amecs.toggle_jacket:0,0,0
@@ -48,6 +45,10 @@ key_modifiers_key.amecs.toggle_right_pants_leg:0,0,0
 key_modifiers_key.amecs.toggle_hat:0,0,0
 key_modifiers_key.things.place_item:0,0,0
 key_modifiers_key.things.openenderchest:0,0,0
+key_modifiers_key.entityculling.toggle:0,0,0
+key_modifiers_key.origins.primary_active:0,0,0
+key_modifiers_key.origins.secondary_active:0,0,0
+key_modifiers_key.origins.view_origin:0,0,0
 key_modifiers_gui.xaero_switch_waypoint_set:0,0,0
 key_modifiers_gui.xaero_instant_waypoint:0,0,0
 key_modifiers_gui.xaero_toggle_slime:0,0,0
@@ -66,7 +67,6 @@ key_modifiers_gui.xaero_toggle_entity_radar:0,0,0
 key_modifiers_gui.xaero_reverse_entity_radar:0,0,0
 key_modifiers_gui.xaero_toggle_manual_cave_mode:0,0,0
 key_modifiers_gui.xaero_minimap_settings:0,0,0
-key_modifiers_key.entityculling.toggle:0,0,0
 key_modifiers_figura.config.action_wheel_button:0,0,0
 key_modifiers_figura.config.player_popup_button:0,0,0
 key_modifiers_figura.config.panic_button:0,0,0
@@ -75,6 +75,7 @@ key_modifiers_gui.xaero_open_settings:0,0,0
 key_modifiers_gui.xaero_map_zoom_in:0,0,0
 key_modifiers_gui.xaero_map_zoom_out:0,0,0
 key_modifiers_gui.xaero_quick_confirm:0,0,0
+key_modifiers_gui.xaero_wm_toggle_minimap_radar:0,0,0
 key_modifiers_key.waila.config:0,0,0
 key_modifiers_key.waila.show_overlay:0,0,0
 key_modifiers_key.waila.toggle_liquid:0,0,0

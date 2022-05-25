@@ -3,7 +3,7 @@ generateGraves = true
 retrievalType = "ON_USE"
 dropType = "IN_INVENTORY"
 dropPlayerHead = false
-dropGraveBlock = false
+dropGraveBlock = true
 requireGraveItem = false
 generateEmptyGraves = false
 ignoreSpawnProtection = true
@@ -22,7 +22,7 @@ blacklistDimensions = []
 graveInVoid = true
 ignoreDeathTypes = []
 graveSpawnHeight = 2
-lastResort = "DROP_ITEMS"
+lastResort = "SET_GRAVE"
 putXpInGrave = true
 defaultXpDrop = false
 xpDropPercent = 50
@@ -32,15 +32,15 @@ maxGraveBackups = 50
 [graveSettings.graveRobbing]
 enableRobbing = true
 onlyMurderer = false
-afterTime = 1
+afterTime = 24
 timeType = "HOURS"
 robPriority = "INVENTORY"
 
 [graveSettings.graveDeletion]
-canDelete = false
-afterTime = 1
+canDelete = true
+afterTime = 48
 timeType = "HOURS"
-dropInventory = false
+dropInventory = true
 
 [graveSettings.itemLoss]
 enableLoss = false
@@ -49,7 +49,7 @@ affectStacks = false
 usePercentRange = false
 lossRangeFrom = 0
 lossRangeTo = 5
-percentChanceOfLoss = 100
+percentChanceOfLoss = 5
 
 [graveSettings.blockUnderGrave]
 generateBlockUnder = true

@@ -18,7 +18,7 @@
   },
   "energy": {
     "enabled": true,
-    "expandWhenSneak": false,
+    "expandWhenSneak": true,
     "colors": {
       "megane": 7408640
     },
@@ -31,7 +31,7 @@
   },
   "fluid": {
     "enabled": true,
-    "expandWhenSneak": false,
+    "expandWhenSneak": true,
     "colors": {
       "megane:default": 855385
     },
